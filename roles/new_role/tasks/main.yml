@@ -1,0 +1,6 @@
+---
+# tasks file for idoshoshani.main.new_role
+
+- name: Display the value of new_role_my_variable
+  ansible.builtin.debug:
+    msg: "The value of new_role_my_variable is {{ new_role_my_variable }}"
