@@ -1,7 +1,7 @@
 ---
 - name: Test the sample filter plugin
   ansible.builtin.set_fact:
-    msg: "{{ 'ansible-creator' | idocollection.main.sample_filter }}"
+    msg: "{{ 'ansible-creator' | idoshoshani.main.sample_filter }}"
 
 - name: Assert that the filter worked
   ansible.builtin.assert:

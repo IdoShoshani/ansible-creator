@@ -1,4 +1,4 @@
-"""Unit tests for idocollection.main."""
+"""Unit tests for idoshoshani.main."""
 
 
 def test_basic() -> None:

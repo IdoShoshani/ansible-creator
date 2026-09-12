@@ -1,6 +1,6 @@
-# Idocollection Main Collection
+# idoshoshani Main Collection
 
-This repository contains the `idocollection.main` Ansible Collection.
+This repository contains the `idoshoshani.main` Ansible Collection.
 
 <!--start requires_ansible-->
 <!--end requires_ansible-->
@@ -19,7 +19,7 @@ which requirements are needed.
 ## Using this collection
 
 ```bash
-    ansible-galaxy collection install idocollection.main
+    ansible-galaxy collection install idoshoshani.main
 ```
 
 You can also include it in a `requirements.yml` file and install it via
@@ -27,23 +27,23 @@ You can also include it in a `requirements.yml` file and install it via
 
 ```yaml
 collections:
-  - name: idocollection.main
+  - name: idoshoshani.main
 ```
 
 To upgrade the collection to the latest available version, run the following
 command:
 
 ```bash
-ansible-galaxy collection install idocollection.main --upgrade
+ansible-galaxy collection install idoshoshani.main --upgrade
 ```
 
 You can also install a specific version of the collection, for example, if you
 need to downgrade when something is broken in the latest version (please report
 an issue in this repository). Use the following syntax where `X.Y.Z` can be any
-[available version](https://galaxy.ansible.com/idocollection/main):
+[available version](https://galaxy.ansible.com/idoshoshani/main):
 
 ```bash
-ansible-galaxy collection install idocollection.main:==X.Y.Z
+ansible-galaxy collection install idoshoshani.main:==X.Y.Z
 ```
 
 See
@@ -53,7 +53,7 @@ for more details.
 ## Release notes
 
 See the
-[changelog](https://github.com/ansible-collections/idocollection.main/tree/main/CHANGELOG.rst).
+[changelog](https://github.com/ansible-collections/idoshoshani.main/tree/main/CHANGELOG.rst).
 
 ## Roadmap
 

@@ -1,4 +1,4 @@
-# idocollection.main run Role
+# idoshoshani.main run Role
 
 A brief description of the role goes here.
 
@@ -22,20 +22,20 @@ Including an example of how to use your role (for instance, with variables passe
 - name: Execute tasks on servers
   hosts: servers
   roles:
-    - role: idocollection.main.run
+    - role: idoshoshani.main.run
       run_x: 42
 ```
 
 Another way to consume this role would be:
 
 ```yaml
-- name: Initialize the run role from idocollection.main
+- name: Initialize the run role from idoshoshani.main
   hosts: servers
   gather_facts: false
   tasks:
     - name: Trigger invocation of run role
       ansible.builtin.include_role:
-        name: idocollection.main.run
+        name: idoshoshani.main.run
       vars:
         run_x: 42
 ```

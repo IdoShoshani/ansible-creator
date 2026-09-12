@@ -1,5 +1,5 @@
 ---
-name: Release idocollection.main
+name: Release idoshoshani.main
 
 on: # yamllint disable-line rule:truthy
   release:
